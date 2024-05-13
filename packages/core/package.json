@@ -19,10 +19,10 @@
     "client.d.ts"
   ],
   "scripts": {
-    "dev": "pnpm unbuild --stub",
-    "build": "pnpm unbuild",
+    "dev": "npx unbuild --stub",
+    "build": "npx unbuild",
     "prepublishOnly": "npm run build",
-    "prepack": "pnpm unbuild"
+    "prepack": "npx unbuild"
   },
   "keywords": [
     "vite",
