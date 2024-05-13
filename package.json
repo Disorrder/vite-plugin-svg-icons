@@ -11,7 +11,7 @@
     "lint:pretty": "pretty-quick --staged",
     "lint:eslint": "eslint \"packages/**/*.{ts,tsx}\" --fix",
     "prepare": "husky install",
-    "preinstall": "npx only-allow pnpm",
+    "//preinstall": "npx only-allow pnpm",
     "test": "vitest"
   },
   "keywords": [
